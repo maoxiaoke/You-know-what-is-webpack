@@ -41,7 +41,7 @@
 
 以上四点的关系有点类似与下面这个图：
 
-![relationship-map]({{ '/styles/images/webpack/webpack-04.png' | prepend: site.baseurl }})
+![relationship-map](../_images/01/webpack-04.png)
 
 ---
 
@@ -162,7 +162,7 @@ module.exports = {
 $ .\node_modules\.bin\webpack
 ```
 
-![]({{ '/styles/images/webpack/webpack-01.png' | prepend: site.baseurl }})
+![](../_images/01/webpack-01.png)
 
 输出的编译文件就存放在`dist`文件夹中。
 
@@ -186,6 +186,6 @@ $ .\node_modules\.bin\webpack
 $ npm run build
 ```
 
-![]({{ '/styles/images/webpack/webpack-01.png' | prepend: site.baseurl }})
+![](../_images/01/webpack-02.png)
 
 第一个章节到此结束。
